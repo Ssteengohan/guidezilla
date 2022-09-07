@@ -19,9 +19,6 @@ composer install
 # Generate an app key (dont use on production or staging)
 php artisan key:generate
 
-# Link the storage
-php artisan storage:link
-
 # ! When you are done with setting up the .env file proceed
 
 # Install NPM dependencies

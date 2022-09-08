@@ -33,7 +33,8 @@ class PostController extends Controller
     {
         $data = request()->validate([
             'title' => 'required',
-            'body' => 'required'
+            'body' => 'required',
+            'code' => 'required'
         ]);
         
         Post::create($data);

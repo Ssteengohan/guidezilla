@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PostController::class, 'home']);
+
+Route::get('/post/{post}', [PostController::class, 'blog']);
+
+Route::get('create', [PostController::class, 'create']);
+Route::post('create/store', [PostController::class, 'store']);
+

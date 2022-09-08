@@ -13,22 +13,6 @@
                     <a class="text-xl underline text-[#0000ee] dark:text-[#4499cc]" href="/post/{{ $post->id }}">{{ $post->title }}</a>
                 </div>
             @endforeach
-            {{-- <div class="py-3 font-bold border-b border-[#eeeeee] dark:border-[#252539]">
-                <a class="text-xl underline text-[#0000ee] dark:text-[#4499cc]" href="">C</a>
-            </div>
-            <div class="py-3 font-bold border-b border-[#eeeeee] dark:border-[#252539]">
-                <a class="text-xl underline text-[#0000ee] dark:text-[#4499cc]" href="">css</a>
-            </div>
-            <div class="py-3 font-bold border-b border-[#eeeeee] dark:border-[#252539]">
-                <a class="text-xl underline text-[#0000ee] dark:text-[#4499cc]" href="">html</a>
-            </div>
-            <div class="py-3 font-bold border-b border-[#eeeeee] dark:border-[#252539]">
-                <a class="text-xl underline text-[#0000ee] dark:text-[#4499cc]" href="">javascript</a>
-            </div>
-
-            <div class="py-3 font-bold border-b border-[#eeeeee] dark:border-[#252539]">
-                <a class="text-xl underline text-[#0000ee] dark:text-[#4499cc]" href="">Python</a>
-            </div> --}}
         </div>
     </main>
     <x-footer />
